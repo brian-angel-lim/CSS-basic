@@ -1,0 +1,36 @@
+body{
+    background-color:black;
+    color:coral;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+
+    /*same as above */
+    font:normal 16px Arial, Helvetica, sans-serif;
+
+    line-height:1.6em;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.box-1{
+    background-color:#831d1d;
+    color:#fff;
+
+    border-right:5px whitesmoke solid;
+    border-bottom:5px grey solid;
+    border-left:5px grey solid;
+    border-top:5px white solid;
+    /*make whole border red 5px
+    border: 5px red solid;
+    */
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+
+    padding-top:20px;
+}
